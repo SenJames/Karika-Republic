@@ -267,13 +267,24 @@ h2 {
 }
 .fixed_image {
   top: 110px;
-  left: 350px;
+  left: 394px;
   height: 150px;
   object-fit: contain;
   position: absolute;
   width: 250px;
 }
 
+}
+
+@media screen and (max-width: 550px){
+.fixed_image {
+    top: 168px;
+    left: 355px;
+    height: 156px;
+    object-fit: contain;
+    position: absolute;
+    width: 147px;
+}
 }
 @media screen and (max-width: 425px) {
   .text__container,
@@ -301,7 +312,7 @@ h2 {
 }
   .fixed_image {
   top: 180px;
-  margin-left: 70px;
+  margin-left: -46px;
   width: 100px;
   }
   .spaced_ul {
@@ -317,18 +328,28 @@ h2 {
 }
   }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
   .fixed_image {
   top: 180px;
-  margin-left: 15px;
+  margin-left: -96px;
   width: 100px;
 
   }
 }
+
+@media screen and (max-width: 375px) {
+  .fixed_image {
+  top: 180px;
+  margin-left: -140px;
+  width: 100px;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .fixed_image {
   top: 180px;
-  margin-left: -40px;
+  margin-left: -184px;
   width: 100px;
 
   }
