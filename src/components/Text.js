@@ -2,7 +2,8 @@ import React from "react";
 import Button from "./Button";
 import image_1 from "../images/image2.jpeg";
 import image_2 from "../images/image1.jpeg";
-import image_3 from "../images/image.jpeg";
+// import image_3 from "../images/image.jpeg";
+import image_3 from "../images/sister.png";
 import { Link } from "react-router-dom";
 import { ExpandLess, Instagram, LinkedIn } from "@mui/icons-material";
 import Read from "./Read";
@@ -105,7 +106,7 @@ const Text = () => {
               0098608631/ Cercle 720 Company/ Access Bank
             </h3>
             <p>
-              Please send payment receipt to karika@karikarepublicom for
+              Please send payment receipt to karika@karikarepublic.com for
               confirmation
             </p>
             <small>*Registration Closes on December 4,2021</small>
@@ -147,10 +148,10 @@ const Text = () => {
       <div className="footer">
         <h4>KARIKA REPUPUBLIC</h4>
         <div className="socials">
-          <Link to="https://instagram.com/karika.republic">
+          <Link to={"//instagram.com/karika.republic"} target='_blank'>
             <Instagram />
           </Link>
-          <Link to="https://www.linkedin.com/in/karika-yonreme">
+          <Link to={"//www.linkedin.com/in/karika-yonreme"}  target='_blank'>
             <LinkedIn />
           </Link>
         </div>
