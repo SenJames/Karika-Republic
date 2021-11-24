@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 li {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 15px;
   letter-spacing: 1px;
 }
@@ -348,7 +348,7 @@ margin-right: 180px;
 @media screen and (max-width: 768px) {
 
 li {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 0.8rem;
   letter-spacing: normal;
 }
