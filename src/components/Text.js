@@ -146,7 +146,7 @@ const Text = () => {
         </div>
       </div>
       <div className="footer">
-        <h4>KARIKA REPUPUBLIC</h4>
+        <h4>KARIKA REPUBLIC</h4>
         <div className="socials">
           <Link to={"//instagram.com/karika.republic"} target='_blank'>
             <Instagram />
