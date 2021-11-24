@@ -256,33 +256,29 @@ h2 {
 }
 
 .firstscreen img {
-  max-height: 250px;
+  max-height: 15rem;
   max-width: 300px;
   
 }
 .secondscreen {
   width: 100vw;
-  height: 100vh; 
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-around;
 }
 .secondscreen__image{
-  display: flex;
-  align-items: center;
+  align-self: center;
   justify-content: center;
+  height: 17em;
 }
-.secondscreen img {
-max-height: 250px;
-  max-width: 300px;
-  margin-top: 30%;
-}
-.secondscreen__background {
-  background-image: url(./images/background3.png);
-  background-repeat: repeat;
-  background-size: cover;
-  height: 50vw;
-  width: 100vw;
-  background-position: bottom;
 
+.secondscreen__background {
+  justify-content: center;
+  align-self: center;
+  height: 16em;
 }
+
 @media screen and (max-width: 1440px) {
   .fixed_image {
   top: 110px;
@@ -290,6 +286,16 @@ margin-right: 460px;
   width: 100px;
 
   }
+
+/* .secondscreen__image{
+  align-self: center;
+  justify-content: center;
+  height: 1em;
+} */
+
+.secondscreen__background {
+  height: 24em;
+}
 }
 @media screen and (max-width: 1024px) {
   .fixed_image {
@@ -297,6 +303,9 @@ margin-right: 460px;
 margin-right: 180px;
   width: 100px;
 
+  }
+  .secondscreen__background {
+    height: 22em;
   }
 }
 
@@ -307,6 +316,9 @@ margin-right: 180px;
     top: 110px;
     margin-right: 379px;
     width: 100px;
+}
+.secondscreen__background {
+  height: 20em;
 }
 }
 
@@ -323,6 +335,9 @@ margin-right: 180px;
 margin-right: 180px;
   width: 100px;
 
+  }
+  .secondscreen__background {
+    height: 18em;
   }
   .item-a {
     justify-self: flex-start;
