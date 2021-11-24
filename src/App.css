@@ -234,7 +234,14 @@ h2 {
 .display {
   display: none;
 }
+@media screen and (max-width: 1440px) {
+  .fixed_image {
+  top: 110px;
+margin-right: 150px;
+  width: 100px;
 
+  }
+}
 @media screen and (max-width: 768px) {
 
 li {
@@ -260,7 +267,7 @@ h2 {
 }
 .fixed_image {
   top: 110px;
-  left: 250px;
+  left: 350px;
   height: 150px;
   object-fit: contain;
   position: absolute;
