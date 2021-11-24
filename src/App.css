@@ -237,6 +237,14 @@ h2 {
 @media screen and (max-width: 1440px) {
   .fixed_image {
   top: 110px;
+margin-right: 450px;
+  width: 100px;
+
+  }
+}
+@media screen and (max-width: 1024px) {
+  .fixed_image {
+  top: 110px;
 margin-right: 180px;
   width: 100px;
 
