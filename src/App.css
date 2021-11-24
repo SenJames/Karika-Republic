@@ -234,10 +234,59 @@ h2 {
 .display {
   display: none;
 }
+/** Page **/
+.firstscreen {
+  background-image: url(./images/background2.png) ;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  object-fit: contain;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.firstscreen img {
+  max-height: 250px;
+  max-width: 300px;
+  
+}
+.secondscreen {
+  width: 100vw;
+  height: 100vh; 
+}
+.secondscreen__image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondscreen img {
+max-height: 250px;
+  max-width: 300px;
+  margin-top: 30%;
+}
+.secondscreen__background {
+  background-image: url(./images/background3.png);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 50vw;
+  width: 100vw;
+  background-position: bottom;
+
+}
 @media screen and (max-width: 1440px) {
   .fixed_image {
   top: 110px;
 margin-right: 460px;
+  width: 100px;
+
+  }
+}
+@media screen and (max-width: 1024px) {
+  .fixed_image {
+  top: 110px;
+margin-right: 180px;
   width: 100px;
 
   }
