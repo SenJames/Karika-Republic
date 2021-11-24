@@ -84,12 +84,12 @@ const Text = () => {
       <section>
         <div className="date">
           <div className="top">
-            <p>Date </p>
-            <p className="stretch">Time</p>
-            <p className="stretch">Venue</p>
-            <p className="bold">December 10, 2021 </p>
-            <p className="stretch bold">7:30pm</p>
-            <p className="stretch bold">Zoom</p>
+            <p className="stretch item-a">Date </p>
+            <p className="stretch item-b">Time</p>
+            <p className="stretch item-c">Venue</p>
+            <p className="bold item-d">December 10, 2021 </p>
+            <p className="stretch bold item-e">7:30pm</p>
+            <p className="stretch bold item-f">Zoom</p>
           </div>
           <div className="get__btn">
             <Button title="Register Now" />
