@@ -241,6 +241,9 @@ margin-right: 150px;
   width: 100px;
 
   }
+  .item-a {
+    justify-self: flex-start;
+  }
 }
 @media screen and (max-width: 768px) {
 
@@ -274,6 +277,10 @@ h2 {
   width: 250px;
 }
 
+
+.item-a {
+  justify-self: flex-start;
+}
 }
 
 @media screen and (max-width: 550px){
@@ -335,6 +342,22 @@ h2 {
   width: 100px;
 
   }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 0%;
+    padding-top: 5px;
+  }
+  
+  .item-a {
+    justify-self: flex-start;
+  }
+
+  .item-b{
+    margin-left: -23px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -344,6 +367,19 @@ h2 {
   width: 100px;
 
   }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 0%;
+    padding-top: 5px;
+  }
+ 
+  .item-a {
+    justify-self: flex-start;
+  }
+  
 }
 
 @media screen and (max-width: 320px) {
@@ -353,4 +389,20 @@ h2 {
   width: 100px;
 
   }
+
+.date {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 0%;
+  padding-top: 5px;
+}
+
+
+
+.item-a {
+  justify-self: flex-start;
+}
+
+
 }
